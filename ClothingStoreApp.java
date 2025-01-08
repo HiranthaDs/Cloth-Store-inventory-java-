@@ -1,4 +1,3 @@
-// File: ClothingStoreApp.java
 
 import javafx.application.Application;
 import javafx.beans.property.SimpleStringProperty;
@@ -31,7 +30,6 @@ public class ClothingStoreApp extends Application {
         primaryStage.show();
     }
 
-    // Create the login scene
     private Scene createLoginScene(Stage primaryStage) {
         VBox loginLayout = new VBox(10);
         loginLayout.setPadding(new javafx.geometry.Insets(20));
@@ -62,7 +60,6 @@ public class ClothingStoreApp extends Application {
         return new Scene(loginLayout, 300, 200);
     }
 
-    // Create the admin scene with product management
     private Scene createAdminScene(Stage primaryStage) {
         BorderPane root = new BorderPane();
 
